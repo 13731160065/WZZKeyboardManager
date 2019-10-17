@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5262761A235853FD0092280B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52627619235853FD0092280B /* AppDelegate.m */; };
+		5262761D235853FD0092280B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262761C235853FD0092280B /* SceneDelegate.m */; };
+		52627620235853FD0092280B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262761F235853FD0092280B /* ViewController.m */; };
+		52627623235853FD0092280B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52627621235853FD0092280B /* Main.storyboard */; };
+		52627625235854020092280B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52627624235854020092280B /* Assets.xcassets */; };
+		52627628235854020092280B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52627626235854020092280B /* LaunchScreen.storyboard */; };
+		5262762B235854020092280B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262762A235854020092280B /* main.m */; };
+		52627635235854020092280B /* WZZKeyboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52627634235854020092280B /* WZZKeyboardDemoTests.m */; };
+		52627640235854020092280B /* WZZKeyboardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262763F235854020092280B /* WZZKeyboardDemoUITests.m */; };
+		52627650235854B50092280B /* WZZKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262764F235854B50092280B /* WZZKeyboardManager.m */; };
+		9941ED1A408491FF7B5F35FB /* libPods-WZZKeyboardDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758D1936BFFB42DA8265F23 /* libPods-WZZKeyboardDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52627631235854020092280B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5262760D235853FD0092280B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52627614235853FD0092280B;
+			remoteInfo = WZZKeyboardDemo;
+		};
+		5262763C235854020092280B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5262760D235853FD0092280B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52627614235853FD0092280B;
+			remoteInfo = WZZKeyboardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2758D1936BFFB42DA8265F23 /* libPods-WZZKeyboardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WZZKeyboardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52627615235853FD0092280B /* WZZKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZZKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52627618235853FD0092280B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52627619235853FD0092280B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5262761B235853FD0092280B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5262761C235853FD0092280B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5262761E235853FD0092280B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5262761F235853FD0092280B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52627622235853FD0092280B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52627624235854020092280B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52627627235854020092280B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52627629235854020092280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5262762A235854020092280B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52627630235854020092280B /* WZZKeyboardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZZKeyboardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52627634235854020092280B /* WZZKeyboardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZKeyboardDemoTests.m; sourceTree = "<group>"; };
+		52627636235854020092280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5262763B235854020092280B /* WZZKeyboardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZZKeyboardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5262763F235854020092280B /* WZZKeyboardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZKeyboardDemoUITests.m; sourceTree = "<group>"; };
+		52627641235854020092280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5262764E235854B50092280B /* WZZKeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZKeyboardManager.h; sourceTree = "<group>"; };
+		5262764F235854B50092280B /* WZZKeyboardManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZKeyboardManager.m; sourceTree = "<group>"; };
+		76CF2D8223144EDBCA87D49D /* Pods-WZZKeyboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZZKeyboardDemo.release.xcconfig"; path = "Target Support Files/Pods-WZZKeyboardDemo/Pods-WZZKeyboardDemo.release.xcconfig"; sourceTree = "<group>"; };
+		827011549207B636F7E48BD3 /* Pods-WZZKeyboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZZKeyboardDemo.debug.xcconfig"; path = "Target Support Files/Pods-WZZKeyboardDemo/Pods-WZZKeyboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52627612235853FD0092280B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9941ED1A408491FF7B5F35FB /* libPods-WZZKeyboardDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5262762D235854020092280B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52627638235854020092280B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016621D5E05DDF9D5BCCB703 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				827011549207B636F7E48BD3 /* Pods-WZZKeyboardDemo.debug.xcconfig */,
+				76CF2D8223144EDBCA87D49D /* Pods-WZZKeyboardDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5262760C235853FD0092280B = {
+			isa = PBXGroup;
+			children = (
+				5262764D235854A60092280B /* WZZKeyboardManager */,
+				52627617235853FD0092280B /* WZZKeyboardDemo */,
+				52627633235854020092280B /* WZZKeyboardDemoTests */,
+				5262763E235854020092280B /* WZZKeyboardDemoUITests */,
+				52627616235853FD0092280B /* Products */,
+				016621D5E05DDF9D5BCCB703 /* Pods */,
+				8EC042D921356DBC84132A49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52627616235853FD0092280B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52627615235853FD0092280B /* WZZKeyboardDemo.app */,
+				52627630235854020092280B /* WZZKeyboardDemoTests.xctest */,
+				5262763B235854020092280B /* WZZKeyboardDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52627617235853FD0092280B /* WZZKeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				52627618235853FD0092280B /* AppDelegate.h */,
+				52627619235853FD0092280B /* AppDelegate.m */,
+				5262761B235853FD0092280B /* SceneDelegate.h */,
+				5262761C235853FD0092280B /* SceneDelegate.m */,
+				5262761E235853FD0092280B /* ViewController.h */,
+				5262761F235853FD0092280B /* ViewController.m */,
+				52627621235853FD0092280B /* Main.storyboard */,
+				52627624235854020092280B /* Assets.xcassets */,
+				52627626235854020092280B /* LaunchScreen.storyboard */,
+				52627629235854020092280B /* Info.plist */,
+				5262762A235854020092280B /* main.m */,
+			);
+			path = WZZKeyboardDemo;
+			sourceTree = "<group>";
+		};
+		52627633235854020092280B /* WZZKeyboardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				52627634235854020092280B /* WZZKeyboardDemoTests.m */,
+				52627636235854020092280B /* Info.plist */,
+			);
+			path = WZZKeyboardDemoTests;
+			sourceTree = "<group>";
+		};
+		5262763E235854020092280B /* WZZKeyboardDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5262763F235854020092280B /* WZZKeyboardDemoUITests.m */,
+				52627641235854020092280B /* Info.plist */,
+			);
+			path = WZZKeyboardDemoUITests;
+			sourceTree = "<group>";
+		};
+		5262764D235854A60092280B /* WZZKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				5262764E235854B50092280B /* WZZKeyboardManager.h */,
+				5262764F235854B50092280B /* WZZKeyboardManager.m */,
+			);
+			path = WZZKeyboardManager;
+			sourceTree = "<group>";
+		};
+		8EC042D921356DBC84132A49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2758D1936BFFB42DA8265F23 /* libPods-WZZKeyboardDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52627614235853FD0092280B /* WZZKeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52627644235854020092280B /* Build configuration list for PBXNativeTarget "WZZKeyboardDemo" */;
+			buildPhases = (
+				D9B3E95CE0A25AE3D3D085DF /* [CP] Check Pods Manifest.lock */,
+				52627611235853FD0092280B /* Sources */,
+				52627612235853FD0092280B /* Frameworks */,
+				52627613235853FD0092280B /* Resources */,
+				A3A153F4ECEB3DD42D6F16D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZZKeyboardDemo;
+			productName = WZZKeyboardDemo;
+			productReference = 52627615235853FD0092280B /* WZZKeyboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5262762F235854020092280B /* WZZKeyboardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52627647235854020092280B /* Build configuration list for PBXNativeTarget "WZZKeyboardDemoTests" */;
+			buildPhases = (
+				5262762C235854020092280B /* Sources */,
+				5262762D235854020092280B /* Frameworks */,
+				5262762E235854020092280B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52627632235854020092280B /* PBXTargetDependency */,
+			);
+			name = WZZKeyboardDemoTests;
+			productName = WZZKeyboardDemoTests;
+			productReference = 52627630235854020092280B /* WZZKeyboardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5262763A235854020092280B /* WZZKeyboardDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5262764A235854020092280B /* Build configuration list for PBXNativeTarget "WZZKeyboardDemoUITests" */;
+			buildPhases = (
+				52627637235854020092280B /* Sources */,
+				52627638235854020092280B /* Frameworks */,
+				52627639235854020092280B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5262763D235854020092280B /* PBXTargetDependency */,
+			);
+			name = WZZKeyboardDemoUITests;
+			productName = WZZKeyboardDemoUITests;
+			productReference = 5262763B235854020092280B /* WZZKeyboardDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5262760D235853FD0092280B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = wzz;
+				TargetAttributes = {
+					52627614235853FD0092280B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					5262762F235854020092280B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 52627614235853FD0092280B;
+					};
+					5262763A235854020092280B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 52627614235853FD0092280B;
+					};
+				};
+			};
+			buildConfigurationList = 52627610235853FD0092280B /* Build configuration list for PBXProject "WZZKeyboardDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5262760C235853FD0092280B;
+			productRefGroup = 52627616235853FD0092280B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52627614235853FD0092280B /* WZZKeyboardDemo */,
+				5262762F235854020092280B /* WZZKeyboardDemoTests */,
+				5262763A235854020092280B /* WZZKeyboardDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52627613235853FD0092280B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52627628235854020092280B /* LaunchScreen.storyboard in Resources */,
+				52627625235854020092280B /* Assets.xcassets in Resources */,
+				52627623235853FD0092280B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5262762E235854020092280B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52627639235854020092280B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3A153F4ECEB3DD42D6F16D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WZZKeyboardDemo/Pods-WZZKeyboardDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WZZKeyboardDemo/Pods-WZZKeyboardDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WZZKeyboardDemo/Pods-WZZKeyboardDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B3E95CE0A25AE3D3D085DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WZZKeyboardDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52627611235853FD0092280B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52627650235854B50092280B /* WZZKeyboardManager.m in Sources */,
+				52627620235853FD0092280B /* ViewController.m in Sources */,
+				5262761A235853FD0092280B /* AppDelegate.m in Sources */,
+				5262762B235854020092280B /* main.m in Sources */,
+				5262761D235853FD0092280B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5262762C235854020092280B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52627635235854020092280B /* WZZKeyboardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52627637235854020092280B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52627640235854020092280B /* WZZKeyboardDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52627632235854020092280B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52627614235853FD0092280B /* WZZKeyboardDemo */;
+			targetProxy = 52627631235854020092280B /* PBXContainerItemProxy */;
+		};
+		5262763D235854020092280B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52627614235853FD0092280B /* WZZKeyboardDemo */;
+			targetProxy = 5262763C235854020092280B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52627621235853FD0092280B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52627622235853FD0092280B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52627626235854020092280B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52627627235854020092280B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52627642235854020092280B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52627643235854020092280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52627645235854020092280B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827011549207B636F7E48BD3 /* Pods-WZZKeyboardDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZKeyboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52627646235854020092280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CF2D8223144EDBCA87D49D /* Pods-WZZKeyboardDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZKeyboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		52627648235854020092280B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZKeyboardDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZKeyboardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZZKeyboardDemo.app/WZZKeyboardDemo";
+			};
+			name = Debug;
+		};
+		52627649235854020092280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZKeyboardDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZKeyboardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZZKeyboardDemo.app/WZZKeyboardDemo";
+			};
+			name = Release;
+		};
+		5262764B235854020092280B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZKeyboardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZKeyboardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WZZKeyboardDemo;
+			};
+			name = Debug;
+		};
+		5262764C235854020092280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZKeyboardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZKeyboardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WZZKeyboardDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52627610235853FD0092280B /* Build configuration list for PBXProject "WZZKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52627642235854020092280B /* Debug */,
+				52627643235854020092280B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52627644235854020092280B /* Build configuration list for PBXNativeTarget "WZZKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52627645235854020092280B /* Debug */,
+				52627646235854020092280B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52627647235854020092280B /* Build configuration list for PBXNativeTarget "WZZKeyboardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52627648235854020092280B /* Debug */,
+				52627649235854020092280B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5262764A235854020092280B /* Build configuration list for PBXNativeTarget "WZZKeyboardDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5262764B235854020092280B /* Debug */,
+				5262764C235854020092280B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5262760D235853FD0092280B /* Project object */;
+}
