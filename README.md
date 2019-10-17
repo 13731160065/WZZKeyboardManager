@@ -1,0 +1,2 @@
+# WZZKeyboardManager
+针对“view加在keywindow上时，IQKeyboardManager无法自动将该输入框弹起”问题的补充工具
